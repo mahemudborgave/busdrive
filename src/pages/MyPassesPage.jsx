@@ -4,9 +4,11 @@ import { ArrowLeft, IdCard } from 'lucide-react';
 import BottomNav from '../components/BottomNav';
 import PassCard from '../components/PassCard';
 import CloseIcon from '@mui/icons-material/Close';
+import { useAppContext } from '../context/AppContext';
 
-export default function MyPassesPage({ passes }) {
+export default function MyPassesPage() {
   const navigate = useNavigate();
+  const { passes } = useAppContext();
 
   return (
     <div className="flex flex-col h-screen bg-[#ED1C2444]">

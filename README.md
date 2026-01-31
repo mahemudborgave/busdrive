@@ -1,5 +1,7 @@
 # PMPML Bus Ticket Booking Clone
 
+# WARNING - It is solely created for educational purpose, any commercial use is strictly prohibited !!!
+
 A complete clone of the PMPML (Pune Mahanagar Parivahan Mahamandal Limited) bus ticket booking application built with React, React Router, and Tailwind CSS.
 
 ## 📁 Project Structure

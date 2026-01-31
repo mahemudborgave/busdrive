@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin } from 'lucide-react';
+import { useAppContext } from '../context/AppContext';
 
-export default function BusTicketPage({ addTicket }) {
+export default function BusTicketPage() {
   const navigate = useNavigate();
+  const { addTicket } = useAppContext();
+  
   const [route, setRoute] = useState('');
   const [startingStop, setStartingStop] = useState('');
   const [endingStop, setEndingStop] = useState('');

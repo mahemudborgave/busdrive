@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { useAppContext } from '../context/AppContext';
 
-export default function DailyPassPage({ addPass }) {
+export default function DailyPassPage() {
   const navigate = useNavigate();
+  const { addPass } = useAppContext();
+  
   const [passType, setPassType] = useState('PMC');
   const [aadhaar, setAadhaar] = useState('');
 
