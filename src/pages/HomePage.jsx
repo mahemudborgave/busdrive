@@ -16,9 +16,9 @@ export default function HomePage() {
     return (
         <div className="flex flex-col h-screen bg-[#FEFAF9]">
             {/* Header */}
-            <div className="bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+            <div className="bg-white border-b border-gray-200 px-4 py-1 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+                    <div className="w-11 h-11 bg-white rounded-full flex items-center justify-center">
                         <img src="pmpml-logo.webp" alt="logo" />
                     </div>
                 </div>
